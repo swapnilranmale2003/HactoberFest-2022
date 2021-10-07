@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-
+//programm for the finding Diameter of Binary tree
 struct node 
 { 
 	int data; 
@@ -13,6 +13,7 @@ int max(int a, int b) { return (a > b)? a : b; }
 
 int height(struct node* node); 
 
+// function for logic
 int diameter(struct node * tree) 
 { 
 if (tree == NULL) 
@@ -45,7 +46,7 @@ node->right = NULL;
 
 return(node); 
 } 
-
+// main fucntions 
 int main() 
 { 
 struct node *root = newNode(1); 
