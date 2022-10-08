@@ -27,6 +27,15 @@ int rdiameter = diameter(tree->right);
 
 return max(lheight + rheight + 1, max(ldiameter, rdiameter)); 
 } 
+// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+
 
 int height(struct node* node) 
 { 
@@ -55,7 +64,7 @@ root->right	 = newNode(3);
 root->left->left = newNode(4); 
 root->left->right = newNode(5); 
 
-printf("Diameter of the given binary tree is %d\n", diameter(root)); 
+printf("Diameter of the given binary tree is: %d\n", diameter(root)); 
 
 return 0; 
 } 
